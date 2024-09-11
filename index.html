@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header>
+        <div class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Ghulam Ahmed, a passionate web developer.</p>
+        </div>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+        <h1>About Me</h1>
+        <p>I'm a passionate full stack developer with skills in HTML, CSS, and JavaScript...</p>
+    </section>
+
+    <!-- Projects Section -->
+   <!-- Projects Section -->
+<section id="projects" class="fade-in">
+    <h2>Projects</h2>
+    <div class="project-grid">
+        <div class="project">
+
+            <h3>Weather Now</h3>
+            <p>A real-time weather application that provides current weather conditions and forecasts. It uses the OpenWeatherMap API to fetch weather data and displays it in a user-friendly interface.</p>
+            <ul>
+                <li><strong>Technologies:</strong> HTML, CSS, JavaScript, OpenWeatherMap API</li>
+            </ul>
+        </div>
+        <div class="project">
+            <h3>TaskMaster</h3>
+            <p>A task management app designed to help users organize their tasks efficiently. Features include task creation, deadlines, priority levels, and a clean user interface for managing tasks.</p>
+            <ul>
+                <li><strong>Technologies:</strong> HTML, CSS, JavaScript, Local Storage</li>
+            </ul>
+        </div>
+        <!-- Add more project items as needed -->
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" ></textarea>
+            </div>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
